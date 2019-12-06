@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /var/www/html
 hooks:
-    ApplicatilionStop:
+    ApplicationStop:
       - location: scripts/stop_application
         timeout: 300
     BeforeInstall:
